@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-You can check if a variable is null by using the equality operator `==`, since your **really** want to compare the references in this case.
+You can check if a variable is null by using the equality operator `==`, since you **really** want to compare the references in this case.
 
 ```java
 if (variable == null) {
@@ -23,5 +23,9 @@ if (list != null && !list.isEmpty()) {
 }
 ```
 
-You can return a value which indicate that the parameters are invalid
+You can return a value which indicates that the parameters are invalid, for example:
+```java
+if (order == null) {
+  return -1;
+}
 
