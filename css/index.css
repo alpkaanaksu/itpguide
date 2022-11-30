@@ -88,7 +88,6 @@ header:after {
   display: flex;
   justify-content: space-between;
   max-width: var(--main-width);
-  width: 90%;
   margin: 0 auto;
 }
 
