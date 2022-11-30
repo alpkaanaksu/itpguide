@@ -2,6 +2,7 @@
 :root {
   --font-family: -apple-system, system-ui, sans-serif;
   --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+  --main-width: 960px;
 }
 
 /* Theme colors */
@@ -68,6 +69,9 @@ a[href]:visited {
 
 main {
   padding: 1rem;
+  max-width: var(--main-width);
+  width: 90%;
+  margin: 0 auto;
 }
 main :first-child {
   margin-top: 0;
@@ -79,6 +83,14 @@ header:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--main-width);
+  width: 90%;
+  margin: 0 auto;
 }
 
 table {
@@ -253,4 +265,8 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+code {
+  border-radius: 8px;
 }
