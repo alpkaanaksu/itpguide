@@ -70,7 +70,6 @@ a[href]:visited {
 main {
   padding: 1rem;
   max-width: var(--main-width);
-  width: 90%;
   margin: 0 auto;
 }
 main :first-child {
