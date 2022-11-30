@@ -1,17 +1,17 @@
 ---
-title: Naming conventions
+title: Naming Conventions
 description: Naming conventions for variables, classes etc.
 date: 2022-11-30
 tags:
-  - conventions
+  - Conventions
 layout: layouts/post.njk
 ---
 
 ## Ideas
 
-**Camel case:** camelCaseConvention
+**Camel case:** `camelCaseConvention`
 
-**Snake case:** snake_case_convention
+**Snake case:** `snake_case_convention`
 
 ## Classes
 ```java

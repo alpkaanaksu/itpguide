@@ -3,7 +3,8 @@ title: Null checks
 description: Avoiding the NullPointerException nightmare
 date: 2022-11-30
 tags:
-  - null values
+  - Null Values
+  - Conditionals
 layout: layouts/post.njk
 ---
 

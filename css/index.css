@@ -295,3 +295,9 @@ code {
   color:seagreen;
   font-weight: bold;
 }
+
+.navlink {
+  color: gray;
+  text-decoration: none;
+}
+
