@@ -229,7 +229,7 @@ a[href].post-tag:focus {
 
 /* Infobox */
 :root {
-  --color-infobox: #f8f8f8;
+  --color-infobox: #f4f4f4;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -242,6 +242,7 @@ a[href].post-tag:focus {
   color: var(--color-gray-90);
   padding: 1em;
   border-radius: 8px;
+  margin-bottom: 1rem;
 }
 .infobox ol:only-child {
   margin: 0;

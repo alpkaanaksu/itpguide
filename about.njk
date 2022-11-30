@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: About
+  order: 2
+---
+<h1>Authors</h1>
+<div class="infobox">
+  <h3 class="title">Alp Kaan Aksu</h3>
+  <a href="https://alpkaanaksu.com">alpkaanaksu.com</a> | <a href="mailto:alpkaan.aksu@tum.de"/>alpkaan.aksu@tum.de</a>
+</div>
+
+<div class="infobox">
+  <h3 class="title">Leon Graeb</h3>
+  <a href="mailto:leon.graeb@tum.de"/>leon.graeb@tum.de</a>
+</div>
+
+<!--
+{% set maxPosts = collections.posts.length | min(3) %}
+<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+
+{% set postslist = collections.posts | head(-3) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>-->
