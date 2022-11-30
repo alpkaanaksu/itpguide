@@ -76,7 +76,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--color-gray-20);
+  border-bottom: 1px solid lightgray;
 }
 header:after {
   content: "";
@@ -153,7 +153,6 @@ code {
 }
 .nav-item-active {
   font-weight: 700;
-  text-decoration: underline;
 }
 
 /* Posts list */
@@ -230,7 +229,7 @@ a[href].post-tag:focus {
 
 /* Infobox */
 :root {
-  --color-infobox: #ffc;
+  --color-infobox: #f8f8f8;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -241,11 +240,16 @@ a[href].post-tag:focus {
 .infobox {
   background-color: var(--color-infobox);
   color: var(--color-gray-90);
-  padding: 1em 0.625em; /* 16px 10px /16 */
+  padding: 1em;
+  border-radius: 8px;
 }
 .infobox ol:only-child {
   margin: 0;
 }
+
+.infobox .title {
+  color: seagreen;
+} 
 
 /* Direct Links / Markdown Headers */
 .direct-link {
@@ -267,7 +271,8 @@ a[href].direct-link:focus:visited,
 
 code {
   border-radius: 99px;
-  background-color:#efefef;
+  background-color:#f8f8f8;
   padding: 0rem 0.5rem;
   color:seagreen;
+  font-weight: bold;
 }
