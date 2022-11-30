@@ -4,6 +4,7 @@ description: Avoiding the NullPointerException nightmare
 date: 2022-11-30
 tags:
   - null values
+  - conditionals
 layout: layouts/post.njk
 ---
 
