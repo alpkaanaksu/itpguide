@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Authors
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: About
   order: 3
 ---
 
-I am a person that writes stuff.
+- Alp Kaan Aksu | [contact](mailto:alpkaan.aksu@tum.de)
+- Leon Graeb | [contact](mailto:leon.graeb@tum.de)
