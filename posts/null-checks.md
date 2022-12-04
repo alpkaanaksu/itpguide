@@ -18,6 +18,7 @@ if (variable == null) {
 ```
 
 ### Combining null checks and method calls
+When you're combining checks like this, always make sure to check for null first. Because in case it actually is null and you try to check if it is empty like in the example down below, you will already recieve an exception.
 ```java
 if (list != null && !list.isEmpty()) {
   // do something
