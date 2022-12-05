@@ -1,0 +1,23 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Posts
+  order: 2
+---
+
+<div class="infobox">
+  <p class="title">The <b>unofficial</b> ITP Guide</p>
+</div>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}
+
+<!--
+{% set maxPosts = collections.posts.length | min(3) %}
+<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+
+{% set postslist = collections.posts | head(-3) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>-->
