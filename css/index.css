@@ -254,9 +254,6 @@ a[href].post-tag:focus {
   margin: 0;
 }
 
-.infobox .title {
-  color: seagreen;
-}
 
 .subinfobox {
   color: gray;
@@ -302,3 +299,7 @@ code {
   text-decoration: none;
 }
 
+.title,
+.infobox .title {
+  color: seagreen;
+}

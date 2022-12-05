@@ -1,16 +1,18 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Posts
+  key: Home
   order: 1
 ---
-
 <div class="infobox">
   <p class="title">The <b>unofficial</b> ITP Guide</p>
 </div>
 
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+<h1>Lecture Weeks</h1>
+
+<div class="infobox">
+  <p><a class="title" href="{{ '/w/06' | url }}">Week 6</a></p>
+</div>
 
 <!--
 {% set maxPosts = collections.posts.length | min(3) %}
