@@ -28,4 +28,16 @@ for (int number : numbers) {
 }
 ```
 
-<a href="{{ 'https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html' | url }}">Oracle Docs</a> 
+## Avoiding the ConcurrentModificationException
+If you change a list while iterating over it (for example if you remove a value), the `ConcurrentModificationException` is thrown. To avoid that, you can use a normal for loop instead of an enhanced for loop and decrease the index after removing the item.
+
+```java
+for (int i = 0; i < list.size(); i++) {
+  if (list.get(i).equals(itemToRemove)) {
+    list.remove(i);
+    i--;
+  }
+
+  // do something else
+}
+```
