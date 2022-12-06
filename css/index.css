@@ -327,3 +327,27 @@ code {
 .week a {
   text-decoration: none;
 }
+
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.page {
+  margin-top: 0;
+  border-radius: 99px;
+  background-color: #f4f4f4;
+  padding: 0.25rem 1rem;
+  margin-right: 0.25em;
+  margin-bottom: 0.25em;
+  white-space: nowrap;
+}
+
+.page:hover {
+  background-color: #d2d2d2;
+}
+
+.page a {
+  text-decoration: none;
+}
